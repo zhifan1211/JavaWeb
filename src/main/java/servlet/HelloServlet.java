@@ -8,6 +8,7 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
+
 //表示瀏覽器可以透過 http://localhost:8080/JavaWeb/hello 網址執行到此 Servlet 程式
 //@WebServlet("/hello") //精簡配置寫法
 @WebServlet(urlPatterns= "/hello") //標準配置寫法
